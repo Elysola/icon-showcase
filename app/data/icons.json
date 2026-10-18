@@ -1,35 +1,28 @@
 {
   "groups": {
-    "recloud": {
-      "name": "ReCloud",
-      "url": "https://github.com/ReCloudStudio",
-      "description": "ReCloud 团队的项目与品牌",
+    "elysola": {
+      "name": "Elysola",
+      "url": "https://github.com/Elysola",
+      "description": "Elysola 团队的项目与品牌",
       "logo": true,
       "brands": [
         {
-          "id": "recloud-studio",
-          "name": "ReCloud Studio",
-          "repo": "ReCloudStudio/icon",
+          "id": "elysola",
+          "name": "Elysola",
+          "repo": "Elysola/icon",
           "tagline": "品牌主图标与横排字标",
           "icon": {
-            "source": "projects/recloud/icon.svg",
+            "source": "projects/elysola/icon.svg",
             "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
-            "sizeSource": "output/recloud/icon-{size}.png"
+            "sizeSource": "output/elysola/icon-{size}.png"
           },
           "lockups": [
             {
               "id": "icon-text",
-              "name": "ReCloud",
-              "source": "projects/recloud/icon-text.svg",
+              "name": "Elysola",
+              "source": "projects/elysola/icon-text.svg",
               "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
-              "sizeSource": "output/recloud/icon-text-{size}.png"
-            },
-            {
-              "id": "icon-text-studio",
-              "name": "ReCloud Studio",
-              "source": "projects/recloud/icon-text-studio.svg",
-              "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
-              "sizeSource": "output/recloud/icon-text-studio-{size}.png"
+              "sizeSource": "output/elysola/icon-text-{size}.png"
             }
           ],
           "extras": []
@@ -37,7 +30,7 @@
         {
           "id": "webhooker",
           "name": "WebHooker",
-          "repo": "ReCloudStudio/icon",
+          "repo": "Elysola/icon",
           "tagline": "Webhook 分发服务",
           "icon": {
             "source": "projects/webhooker/icon.svg",
@@ -50,7 +43,7 @@
         {
           "id": "mailer",
           "name": "Mailer",
-          "repo": "ReCloudStudio/icon",
+          "repo": "Elysola/icon",
           "tagline": "邮件通知服务",
           "icon": {
             "source": "projects/mailer/icon.svg",

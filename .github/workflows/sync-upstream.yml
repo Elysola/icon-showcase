@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   sync:
-    if: github.repository != 'ReCloudStudio/icon-showcase'
+    if: github.repository != 'Elysola/icon-showcase'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -30,7 +30,7 @@ jobs:
 
       - name: Merge upstream, keep local config
         env:
-          UPSTREAM: ${{ vars.UPSTREAM_REPO || 'ReCloudStudio/icon-showcase' }}
+          UPSTREAM: ${{ vars.UPSTREAM_REPO || 'Elysola/icon-showcase' }}
           UPSTREAM_BRANCH: ${{ vars.UPSTREAM_BRANCH || 'main' }}
           PROTECTED: ${{ vars.PROTECTED_PATHS || 'site.config.ts app/data/icons.json public/brand' }}
         run: |

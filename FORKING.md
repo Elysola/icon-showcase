@@ -1,6 +1,6 @@
 # Fork 使用指南
 
-这个项目适合团队 fork 后作为自己的图标展示站部署。默认配置保留 ReCloud Studio 示例，fork 后可以完整替换为自己的站点身份与品牌清单。
+这个项目适合团队 fork 后作为自己的图标展示站部署。默认配置保留 Elysola 示例，fork 后可以完整替换为自己的站点身份与品牌清单。
 
 ## 1. Fork 与重命名
 
@@ -114,7 +114,7 @@ bun run deploy
 
 默认行为可通过仓库 Variables（Settings → Secrets and variables → Actions → Variables）调整：
 
-- `UPSTREAM_REPO`：上游仓库，默认 `ReCloudStudio/icon-showcase`。
+- `UPSTREAM_REPO`：上游仓库，默认 `Elysola/icon-showcase`。
 - `UPSTREAM_BRANCH`：上游分支，默认 `main`。
 - `PROTECTED_PATHS`：合并时保留的本地路径，默认 `site.config.ts app/data/icons.json public/brand`；如需保留自定义文案，可追加 `i18n/locales`。
 
@@ -124,13 +124,13 @@ bun run deploy
 - 若上游改动导致 `bun run build` 校验失败，workflow 会中止且不推送，便于你手动处理。
 - 若 fork 的默认分支开启了分支保护，`git push` 可能被拒绝，可放宽保护或改为在 workflow 中走 PR。
 
-## 7. 移除 ReCloud 示例
+## 7. 移除 Elysola 示例
 
 完成自己的配置后，检查并替换：
 
-- `site.config.ts` 中的 ReCloud 名称、Logo、链接与页脚。
-- `app/data/icons.json` 中的 `recloud` 分组与示例品牌。
-- `public/brand/` 下由 ReCloud 示例生成的资源。
-- README、站点描述和社交分享元信息中的 ReCloud 文案。
+- `site.config.ts` 中的 Elysola 名称、Logo、链接与页脚。
+- `app/data/icons.json` 中的 `elysola` 分组与示例品牌。
+- `public/brand/` 下由 Elysola 示例生成的资源。
+- README、站点描述和社交分享元信息中的 Elysola 文案。
 
 然后重新执行 `bun run sync` 和 `bun run build`。

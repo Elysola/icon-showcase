@@ -1,6 +1,6 @@
-# ReCloud 图标展示站
+# Elysola 图标展示站
 
-Nuxt 4 可 fork 图标展示站，支持按团队/组织聚合多个项目。默认身份为 ReCloud Studio，但站点身份与图标数据均由配置驱动。部署于 Cloudflare Pages。
+Nuxt 4 可 fork 图标展示站，支持按团队/组织聚合多个项目。默认身份为 Elysola，但站点身份与图标数据均由配置驱动。部署于 Cloudflare Pages。
 
 ## 技术栈
 

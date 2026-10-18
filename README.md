@@ -1,4 +1,4 @@
-# ReCloud Icon Showcase
+# Elysola Icon Showcase
 
 可 fork 的 Nuxt 4 图标展示站，支持按团队/组织聚合多个项目，展示 SVG、多尺寸 PNG、字标、额外资源与使用片段。
 
@@ -16,14 +16,14 @@
 
 ```ts
 export const siteConfig = {
-  name: 'ReCloud Studio',
+  name: 'Elysola',
   description: '品牌图标展示站',
-  logo: '/brand/recloud-studio/icon.svg',
+  logo: '/brand/elysola/icon.svg',
   accent: 'brand',
-  ogUrl: 'https://icon.worldexecute.me',
-  github: 'https://github.com/ReCloudStudio',
-  footer: 'ReCloud Studio',
-  defaultGroup: 'recloud',
+  ogUrl: 'https://icon.elysola.org',
+  github: 'https://github.com/Elysola',
+  footer: 'Elysola',
+  defaultGroup: 'elysola',
   links: [],
 }
 ```

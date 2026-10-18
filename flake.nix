@@ -1,5 +1,5 @@
 {
-  description = "ReCloud Studio 图标展示站";
+  description = "Elysola 图标展示站";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -26,7 +26,7 @@
           ];
 
           shellHook = ''
-            echo "ReCloud Studio 图标展示站 — dev shell"
+            echo "Elysola 图标展示站 — dev shell"
             echo "  bun:    $(bun --version)"
             echo "  node:   $(node --version)"
             echo "  wrangler: $(wrangler --version 2>/dev/null | head -1)"
