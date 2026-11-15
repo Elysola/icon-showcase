@@ -25,7 +25,13 @@
               "sizeSource": "output/elysola/icon-text-{size}.png"
             }
           ],
-          "extras": []
+          "extras": [
+            {
+              "id": "icon-decorative",
+              "name": "装饰图标",
+              "source": "projects/elysola/icon-decorative.svg"
+            }
+          ]
         },
         {
           "id": "webhooker",
