@@ -10,54 +10,84 @@
           "id": "elysola",
           "name": "Elysola",
           "repo": "Elysola/icon",
+          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
           "tagline": "品牌主图标与横排字标",
           "icon": {
             "source": "projects/elysola/icon.svg",
             "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
             "sizeSource": "output/elysola/icon-{size}.png"
           },
-          "lockups": [
-            {
-              "id": "icon-text",
-              "name": "Elysola",
-              "source": "projects/elysola/icon-text.svg",
-              "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
-              "sizeSource": "output/elysola/icon-text-{size}.png"
-            }
-          ],
-          "extras": [
-            {
-              "id": "icon-decorative",
-              "name": "装饰图标",
-              "source": "projects/elysola/icon-decorative.svg"
-            }
-          ]
+          "lockups": [{
+            "id": "icon-text", "name": "Elysola",
+            "source": "projects/elysola/icon-text.svg",
+            "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
+            "sizeSource": "output/elysola/icon-text-{size}.png"
+          }],
+          "extras": [{
+            "id": "icon-decorative", "name": "装饰图标",
+            "source": "projects/elysola/icon-decorative.svg"
+          }]
         },
         {
-          "id": "webhooker",
-          "name": "WebHooker",
-          "repo": "Elysola/icon",
-          "tagline": "Webhook 分发服务",
+          "id": "webhooker", "name": "WebHooker", "repo": "Elysola/icon",
+          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
+          "tagline": "Webhook 分发服务", "accent": "indigo",
           "icon": {
             "source": "projects/webhooker/icon.svg",
             "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
             "sizeSource": "output/webhooker/icon-{size}.png"
           },
           "lockups": [],
-          "extras": []
+          "extras": [
+            {"id": "icon-small", "name": "小尺寸版", "source": "projects/webhooker/icon-small.svg"},
+            {"id": "icon-mono", "name": "单色版", "source": "projects/webhooker/icon-mono.svg"}
+          ]
         },
         {
-          "id": "mailer",
-          "name": "Mailer",
-          "repo": "Elysola/icon",
-          "tagline": "邮件通知服务",
+          "id": "mailer", "name": "Mailer", "repo": "Elysola/icon",
+          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
+          "tagline": "邮件通知服务", "accent": "sky",
           "icon": {
             "source": "projects/mailer/icon.svg",
             "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
             "sizeSource": "output/mailer/icon-{size}.png"
           },
           "lockups": [],
-          "extras": []
+          "extras": [
+            {"id": "icon-small", "name": "小尺寸版", "source": "projects/mailer/icon-small.svg"},
+            {"id": "icon-mono", "name": "单色版", "source": "projects/mailer/icon-mono.svg"}
+          ]
+        },
+        {
+          "id": "sleepyxposed", "name": "SleepyXposed", "repo": "Elysola/icon",
+          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
+          "tagline": "个人在线状态与设备状态上报", "accent": "violet",
+          "icon": {
+            "source": "projects/sleepyxposed/icon.svg",
+            "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
+            "sizeSource": "output/sleepyxposed/icon-{size}.png"
+          },
+          "lockups": [],
+          "extras": [
+            {"id": "icon-small", "name": "小尺寸版", "source": "projects/sleepyxposed/icon-small.svg"},
+            {"id": "icon-mono", "name": "单色版", "source": "projects/sleepyxposed/icon-mono.svg"}
+          ]
+        },
+        {
+          "id": "vectorloom", "name": "VectorLoom", "repo": "Elysola/icon",
+          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
+          "url": "https://github.com/Elysola/VectorLoom",
+          "tagline": "可复现的声明式 SVG 资产流水线", "accent": "emerald",
+          "icon": {
+            "source": "projects/vectorloom/icon.svg",
+            "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
+            "sizeSource": "output/vectorloom/icon-{size}.png"
+          },
+          "lockups": [],
+          "extras": [
+            {"id": "icon-small", "name": "小尺寸版", "source": "projects/vectorloom/icon-small.svg"},
+            {"id": "icon-mono", "name": "单色版", "source": "projects/vectorloom/icon-mono.svg"}
+          ]
         }
       ]
     }
