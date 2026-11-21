@@ -10,7 +10,7 @@
           "id": "elysola",
           "name": "Elysola",
           "repo": "Elysola/icon",
-          "ref": "02cf2ba3672f4b452ef77a776eb86cf3b8cb1a78",
+          "ref": "b7b5df3883712afe703253a88e72a772b60b2526",
           "tagline": "品牌主图标与横排字标",
           "icon": {
             "source": "projects/elysola/icon.svg",
@@ -31,7 +31,7 @@
         },
         {
           "id": "webhooker", "name": "WebHooker", "repo": "Elysola/icon",
-          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
+          "ref": "b7b5df3883712afe703253a88e72a772b60b2526",
           "tagline": "Webhook 分发服务", "accent": "indigo",
           "icon": {
             "source": "projects/webhooker/icon.svg",
@@ -46,7 +46,7 @@
         },
         {
           "id": "mailer", "name": "Mailer", "repo": "Elysola/icon",
-          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
+          "ref": "b7b5df3883712afe703253a88e72a772b60b2526",
           "tagline": "邮件通知服务", "accent": "sky",
           "icon": {
             "source": "projects/mailer/icon.svg",
@@ -61,7 +61,7 @@
         },
         {
           "id": "sleepyxposed", "name": "SleepyXposed", "repo": "Elysola/icon",
-          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
+          "ref": "b7b5df3883712afe703253a88e72a772b60b2526",
           "tagline": "个人在线状态与设备状态上报", "accent": "violet",
           "icon": {
             "source": "projects/sleepyxposed/icon.svg",
@@ -76,7 +76,7 @@
         },
         {
           "id": "vectorloom", "name": "VectorLoom", "repo": "Elysola/icon",
-          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
+          "ref": "b7b5df3883712afe703253a88e72a772b60b2526",
           "url": "https://github.com/Elysola/VectorLoom",
           "tagline": "可复现的声明式 SVG 资产流水线", "accent": "emerald",
           "icon": {
