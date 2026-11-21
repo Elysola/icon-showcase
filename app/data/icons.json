@@ -10,7 +10,7 @@
           "id": "elysola",
           "name": "Elysola",
           "repo": "Elysola/icon",
-          "ref": "476466c10960f7b6fc1294f50359a4627be211bf",
+          "ref": "e6b71f6029b3c5e403615f2326019adad2bcd89d",
           "tagline": "品牌主图标与横排字标",
           "icon": {
             "source": "projects/elysola/icon.svg",
@@ -23,10 +23,11 @@
             "sizes": [16, 32, 48, 64, 96, 128, 256, 512],
             "sizeSource": "output/elysola/icon-text-{size}.png"
           }],
-          "extras": [{
-            "id": "icon-decorative", "name": "装饰图标",
-            "source": "projects/elysola/icon-decorative.svg"
-          }]
+          "extras": [
+            {"id": "icon-small", "name": "小尺寸版", "source": "projects/elysola/icon-small.svg"},
+            {"id": "icon-mono", "name": "单色版", "source": "projects/elysola/icon-mono.svg"},
+            {"id": "icon-decorative", "name": "装饰图标", "source": "projects/elysola/icon-decorative.svg"}
+          ]
         },
         {
           "id": "webhooker", "name": "WebHooker", "repo": "Elysola/icon",
